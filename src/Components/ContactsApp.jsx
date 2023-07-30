@@ -41,7 +41,6 @@ const ContactApp = ({
 };
 
 const mapStateToProps = (state) => {
-  console.log(state.contacts.contacts); // Log the contacts variable
   return {
     contacts: state.contacts.contacts,
   };
