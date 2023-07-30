@@ -1,0 +1,23 @@
+.counter-app {
+  background-color: rgb(215, 215, 215);
+  padding: 5rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  border: black 1px solid;
+}
+
+.counter-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.counter {
+  display: inline-block;
+  font-size: 32px;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}

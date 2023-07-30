@@ -1,0 +1,51 @@
+.contact-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(215, 215, 215);
+  padding: 2rem;
+  margin-top: 3rem;
+  gap: 1rem;
+  border: black 1px solid;
+  height: 30rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-list {
+  font-size: 2rem;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn-remove {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-remove:hover {
+  background-color: #e64131;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

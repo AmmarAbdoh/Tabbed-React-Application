@@ -1,13 +1,12 @@
-// src/components/CounterApp.js
 import React from "react";
 import { connect } from "react-redux";
 import { incrementCounter, decrementCounter } from "../actions/counterActions";
-
+import "./css/CounterApp.css";
 const CounterApp = ({ counter, incrementCounter, decrementCounter }) => {
   return (
     <div className="counter-app">
-      <h1>Counter App</h1>
-      <p>Counter Value: {counter}</p>
+      <h1 className="counter-title">Counter App</h1>
+      <div className="counter">{counter}</div>
       <div className="buttons-section">
         <button onClick={incrementCounter} className="btn">
           Increase
